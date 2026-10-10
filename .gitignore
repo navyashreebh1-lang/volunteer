@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+
+# Secrets — never commit real environment files
+.env
+.env.*
+!.env.example
+
+# Locally stored profile photos (development storage driver)
+server/uploads/
+
+*.log
+.DS_Store

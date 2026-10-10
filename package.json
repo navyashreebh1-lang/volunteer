@@ -1,0 +1,13 @@
+{
+  "name": "voluntrix",
+  "private": true,
+  "description": "VOLUNTRIX — The right people. The right event. The right time.",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install",
+    "demo:api": "npm --prefix server run dev:demo",
+    "api": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix server run typecheck && npm --prefix client run build"
+  }
+}
